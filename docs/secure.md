@@ -45,7 +45,7 @@ iptables -S
 ```
 
 ?> Check [required ports](https://kubernetes.io/docs/setup/independent/install-kubeadm/#check-required-ports)
-?> for more details on which ports are needed by `kubernetes`
+   for more details on which ports are needed by `kubernetes`
 
 ### Persist rules
 !> THIS IS **NOT TESTED**

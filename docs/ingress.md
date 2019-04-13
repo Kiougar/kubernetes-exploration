@@ -68,8 +68,8 @@ data:
 ```
 
 ?> Make sure that you use the correct IP in the `proxy-real-ip-cidr` setting
-?> otherwise the headers will not be forwarded and **the real client IP will
-?> never reach the application layer**.
+   otherwise the headers will not be forwarded and **the real client IP will
+   never reach the application layer**.
 
 ## NGINX Master Proxy
 
@@ -112,10 +112,9 @@ location / {
 ```
 
 ?> Notice that it proxies everything to the [Ingress Service](#create-ingress-service)
-?> while doing TLS termination
-?> 
-?> _listens to both `80` and `443` and always redirects
-?> to `http://127.0.0.1:30080`_
+   while doing TLS termination
+   <br>
+   _listens to both `80` and `443` and always redirects to `http://127.0.0.1:30080`_
 
 ### Secure proxy (optional)
 
