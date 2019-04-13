@@ -1,0 +1,5 @@
+- [Home](/)
+- [Setup](setup.md)
+- [Ingress](ingress.md)
+- [Secure](secure.md)
+- [Upgrade](upgrade.md)
